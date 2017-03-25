@@ -8,8 +8,12 @@ General premake documentation here:
 
 ### Publishing your module.
 
-To make your module available through automatic HTTP download, fork this project, edit the table below in this 'readme.md' file, and submit a pull request. Make sure your module is a 'public' project, otherwise the module server cannot 'clone' the project for packaging. Once the pull request gets merged, you need to 'draft a release' on github of your module, which the module server will then automatically pick up and publish on 'https://packagesrv.com'.
+To make your module available through automatic HTTP download, fork this project, edit the table below in this 'readme.md' file, and submit a pull request. Make sure your module is a 'public' project, otherwise the module server cannot 'clone' the project for packaging. 
 
+Once the pull request gets merged:
+- Setup a github webhook to: https://packagesrv.com/api/v1/githubwebhook
+- Select the 'Let me select individual events' option, and check the "Create" and "Release" checkboxes.
+- Then whenever you create a release, using a [semver](http://semver.org) compliant version number, the module server will pull down that release and publish it on 'https://packagesrv.com'.
 
 ### List of Premake 5 modules.
 
