@@ -9,5 +9,4 @@ General premake documentation here:
 
 ### Publishing your module.
 
-To make your module available through automatic HTTP download, fork this project, edit the 'modules.json' file, and submit a pull request. 
-Make sure your module is a 'public' project, otherwise we cannot 'clone' the project for packaging.
+To make your module available through automatic HTTP download, fork this project, edit the table below in this 'readme.md' file, and submit a pull request. Make sure your module is a 'public' project, otherwise the module server cannot 'clone' the project for packaging. Once the pull request gets merged, you need to 'draft a release' on github of your module, which the module server will then automatically pick up and publish on 'https://packagesrv.com'.
