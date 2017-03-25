@@ -13,6 +13,7 @@ To make your module available through automatic HTTP download, fork this project
 
 ### List of Premake 5 modules.
 
-! Name ! Description ! Repository link !
-! :--- ! :--- ! :--- !
-! raw ! Generate raw representation of Premake structures | https://github.com/premake/premake-raw.git |
+| Name | Description | Repository link |
+| :--- | :--- | :--- |
+| raw | Generate raw representation of Premake structures | https://github.com/premake/premake-raw.git |
+
