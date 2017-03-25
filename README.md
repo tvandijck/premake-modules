@@ -12,8 +12,8 @@ General premake documentation here:
 - Setup a github webhook to: https://packagesrv.com/api/v1/githubwebhook
 - Select the 'Let me select individual events' option, and check the "Create" and "Release" checkboxes.
 - Then whenever you create a release, using a [semver](http://semver.org) compliant version number, the module server will:
--- Pull down that release and publish it on 'https://packagesrv.com'.
--- Update the list below.
+  - Pull down that release and publish it on 'https://packagesrv.com'.
+  - Update the list below.
 
 ### List of Premake 5 modules.
 
